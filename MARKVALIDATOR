@@ -25,11 +25,11 @@ void markGrade(int mark)
 	 {
 	 System.out.println("Grade A");
 	 }
-	 if(90>=mark>75)
+	else if(mark>75)
 	 {
 	 System.out.println("Grade B");
 	 }
-	 if(75>=mark>60)
+	else if(mark>60)
 	 {
 	 System.out.println("Grade C");
 	 }
