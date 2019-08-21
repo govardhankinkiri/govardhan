@@ -1,8 +1,15 @@
-package day0;
 
+package day1;
 public class HelloWorld {
-	public static void main(String[] args) {
-		System.out.println("Hello world!");
+	public String getMessage (){
+		return "Hello World!" ;
 	}
+	
 
+
+	public static void main(String[] args) {
+		HelloWorld h =new HelloWorld();
+		System.out.println(h.getMessage());
+		
+	}
 }
