@@ -23,15 +23,15 @@ public class MarkValidatorUsingIfElse {
 				return 'A';
 			}
 			else if(marks>75){
-				return 'b';
+				return 'B';
 			}
 			else if(marks>60)
 			{
-				return 'c';
+				return 'C';
 			}
 			else 
 			{
-				return 'd';
+				return 'D';
 			}
 			
 		
